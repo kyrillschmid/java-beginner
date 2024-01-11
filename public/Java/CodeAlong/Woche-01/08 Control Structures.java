@@ -21,10 +21,10 @@
 // <div style="text-align:center;">Dr. Kyrill Schmid</div>
 // <br/>
 // <!-- 08 Control Structures.java -->
-// <!-- slides/grundkurs/topic_009_Kontrollstrukturen_1.java -->
+// <!-- slides/grundkurs/topic_007_Kontrollstrukturen_If.java -->
 
 
-// %% [markdown] lang="en"
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
 // ## `if` statements
 //
 // - We want to write a program that determines if a number is a lucky number or not:

@@ -21,7 +21,7 @@
 // <div style="text-align:center;">Dr. Kyrill Schmid</div>
 // <br/>
 // <!-- 09 While-loops.java -->
-// <!-- slides/grundkurs/topic_009_While.java -->
+// <!-- slides/grundkurs/topic_008_While.java -->
 //
 //
 

@@ -21,7 +21,7 @@
 // <div style="text-align:center;">Dr. Kyrill Schmid</div>
 // <br/>
 // <!-- 04 Variables.java -->
-// <!-- slides/grundkurs/topic_004_Variablen.java -->
+// <!-- slides/grundkurs/topic_003_Variablen.java -->
 
 
 // %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}

@@ -21,7 +21,7 @@
 // <div style="text-align:center;">Dr. Kyrill Schmid</div>
 // <br/>
 // <!-- 06 Encapsulation.java -->
-// <!-- slides/grundkurs/topic_008_Sichtbarkeit.java -->
+// <!-- slides/grundkurs/topic_005_Sichtbarkeit.java -->
 
 
 // %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}

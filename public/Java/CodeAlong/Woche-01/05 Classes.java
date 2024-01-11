@@ -21,7 +21,7 @@
 // <div style="text-align:center;">Dr. Kyrill Schmid</div>
 // <br/>
 // <!-- 05 Classes.java -->
-// <!-- slides/grundkurs/topic_005_Klassen.java -->
+// <!-- slides/grundkurs/topic_004_Klassen.java -->
 
 
 // %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
