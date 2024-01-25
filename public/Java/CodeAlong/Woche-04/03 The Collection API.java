@@ -1,0 +1,145 @@
+// -*- coding: utf-8 -*-
+// ---
+// jupyter:
+//   jupytext:
+//     text_representation:
+//       extension: .java
+//       format_name: percent
+//       format_version: '1.3'
+//       jupytext_version: 1.15.2
+//   kernelspec:
+//     display_name: Java
+//     language: java
+//     name: java
+// ---
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+//
+// <div style="text-align:center; font-size:200%;">
+//   <b>The Collection API</b>
+// </div>
+// <br/>
+// <div style="text-align:center;">Dr. Kyrill Schmid</div>
+// <br/>
+// <!-- 03 The Collection API.java -->
+// <!-- slides/module_150_collections/topic_111_collection_interfaces.java -->
+
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// ## Core collection interfaces
+// - The core collection interfaces encapsulate different types of collections
+// - These interfaces allow collections to be manipulated independently of the details of their representation
+// - Core collection interfaces are the foundation of the Java Collections Framework
+// - The core collection interfaces form a hierarchy:
+
+// %% [markdown] lang="en" tags=["subslide"] slideshow={"slide_type": "subslide"}
+//
+// <img src="img/collection_interfaces.png"
+//      style="display:block;margin:auto;width:75%"/>
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// ## Generic Collection Interfaces
+// - All the core collection interfaces are generic
+// - For example, this is the declaration of the Collection interface:
+// ```java
+// public interface Collection<E> ...
+// ```
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// - The `<E>` syntax tells you that the interface is generic
+// - When you declare a Collection instance you can and should specify the type of object contained in the collection
+// - Specifying the type allows the compiler to verify (at compile-time) that the type of object you put into the collection is correct
+// ```java
+// Collection<String> c = new ...
+// ```
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// - The Java platform doesn't provide separate interfaces for each variant of each collection type to keep the number of interfaces manageable
+//       - Such as immutable, fixed-size, and append-only
+// - Instead, the modification operations in each interface are designated optional 
+//      — A given implementation may elect not to support all operations
+//      - If an unsupported operation is invoked, a collection throws an UnsupportedOperationException 
+//      - Implementations are responsible for documenting which of the optional operations they support
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// ## Collection
+// - The root of the collection hierarchy
+// - A collection represents a group of objects known as its elements
+// - The Collection interface is the least common denominator
+
+// %%
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// ## List
+// - An ordered collection (sometimes called a sequence)
+// - Lists can contain duplicate elements
+// - Access with zero-based index
+
+// %%
+
+// %%
+
+// %%
+
+// %%
+
+// %%
+
+// %%
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// ## Set
+// - A collection that cannot contain duplicate elements
+// - Models the mathematical set abstraction
+
+// %%
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// Attempting to add duplicate elements
+
+// %%
+
+// %%
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// ## Queue and Deque
+// - Queue — a collection used to hold multiple elements prior to processing
+//      - Order elements typically on a FIFO (first-in, first-out) basis
+// - Deque (double ended queue) a collection used to hold multiple elements prior to processing
+//      - Deques can be used both as FIFO (first-in, first-out) and LIFO (last-in, first-out)
+//      - In a deque all new elements can be inserted, retrieved and removed at both ends
+
+// %%
+
+// %%
+
+// %%
+
+// %%
+
+// %%
+
+// %%
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// ## Map
+// - Map — an object that maps keys to values
+// - A HashMap is an example of a Map implementation
+
+// %%
+
+// %%
+
+// %%
+
+// %%
+
+// %%
+
+// %%
+
+// %% [markdown] lang="en" tags=["slide"] slideshow={"slide_type": "slide"}
+// ## SortedSet, SortedMap
+// - SortedSet — a Set that maintains its elements in ascending order
+// - SortedMap — a Map that maintains its mappings in ascending key order
+
